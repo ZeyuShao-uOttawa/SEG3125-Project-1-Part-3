@@ -1,0 +1,18 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  background-position-y: 150px;
+  background-image: url('bikebg.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 1880px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
